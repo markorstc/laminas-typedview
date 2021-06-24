@@ -1,4 +1,19 @@
-# laminas-typedview
-Strongly typed view layer, as extension for Laminas MVC system, focused on easy code navigation and type hinting
+# Typed View Layer for Laminas
+#### Key features
 
-### WIP
+- strongly typed view layer
+- clean template scope
+- easy code navigation
+- type hinting
+
+## Installation
+#### Install module via Composer
+```
+$ composer require markorstc/laminas-typedview
+```
+#### Enable module via config
+![Register module in laminas modules.config.php](https://github.com/markorstc/laminas-typedview/raw/main/help/1-enable-module.webp)
+
+## Getting started
+
+**WIP**
