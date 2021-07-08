@@ -36,3 +36,7 @@ If you want to use common layout for multiple controllers or actions, you have t
 At the same time, you specify callback, that will set rendered child model to the parent model (in this case rendered `MyListViewModel` to parent `MyLayoutModel`).
 
 https://user-images.githubusercontent.com/12954262/124978106-a0c1b200-e031-11eb-9775-b85f93e0e28e.mp4
+
+#### Use Laminas view helpers
+
+**WIP**
