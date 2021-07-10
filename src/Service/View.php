@@ -101,7 +101,7 @@ class View implements EventManagerAwareInterface
             }
         }
 
-        $event->setResult($rendered ?? '');
+        $event->setResult($rendered);
         $event->setName(ViewEvent::EVENT_RESPONSE);
         $events->triggerEvent($event);
     }

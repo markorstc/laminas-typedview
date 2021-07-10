@@ -16,7 +16,7 @@ use TypedView\Entity\ViewEvent as TypedViewEvent;
  */
 class PhpViewRendererStrategy extends AbstractListenerAggregate
 {
-    public function __construct(private PhpViewRenderer $renderer)
+    public function __construct(protected PhpViewRenderer $renderer)
     {
         // php8 ctor
     }

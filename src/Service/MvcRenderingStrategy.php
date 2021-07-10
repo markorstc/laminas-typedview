@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace TypedView\Service;
 
-use Application\Service\Application;
 use Laminas\EventManager\AbstractListenerAggregate;
 use Laminas\EventManager\EventManagerInterface;
+use Laminas\Mvc\Application;
 use Laminas\Mvc\MvcEvent;
 use Laminas\Stdlib\ResponseInterface as Response;
 use Throwable;
@@ -19,7 +19,7 @@ use TypedView\Entity\ViewModel;
  */
 class MvcRenderingStrategy extends AbstractListenerAggregate
 {
-    public function __construct(private View $view)
+    public function __construct(protected View $view)
     {
         // php8 ctor
     }
