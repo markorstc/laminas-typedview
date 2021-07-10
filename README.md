@@ -47,4 +47,10 @@ https://user-images.githubusercontent.com/12954262/125169570-18671c80-e1ab-11eb-
 
 #### Nesting view models
 
-**WIP**
+It's possible to use view models as individual components and combine them.
+
+To add one model to another use `TypedView\Entity\ViewModel::addChild()` method and specify capture callback the same like in layout model example.
+
+https://user-images.githubusercontent.com/12954262/125174821-37c07280-e1c8-11eb-9cf2-1f49bdecfa45.mp4
+
+
