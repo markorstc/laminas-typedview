@@ -13,6 +13,10 @@
 $ composer require markorstc/laminas-typedview
 ```
 
+#### Requirements
+
+PHP 8 or above
+
 #### Enable module via config
 
 https://user-images.githubusercontent.com/12954262/124970331-145ec180-e028-11eb-82f3-acf8d0ef3e58.mp4

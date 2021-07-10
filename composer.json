@@ -1,6 +1,11 @@
 {
     "name": "markorstc/laminas-typedview",
     "description": "Strongly typed view layer, as extension for Laminas MVC system, focused on easy code navigation and type hinting",
+    "keywords": [
+        "view",
+        "typed",
+        "laminas"
+    ],
     "type": "library",
     "require": {
         "php": "^8.0",
