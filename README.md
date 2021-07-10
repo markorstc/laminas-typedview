@@ -39,4 +39,12 @@ https://user-images.githubusercontent.com/12954262/124978106-a0c1b200-e031-11eb-
 
 #### Use Laminas view helpers
 
+It's possible to use Laminas standard view helpers, but you have to extend `TypedView\Entity\LaminasBridgeModel` when creating your typed view model.
+
+If you want to use single particular Laminas view helper and keep clean scope in your template, you can use helper traits e.g. `TypedView\Helper\UrlViewHelper`.
+
+https://user-images.githubusercontent.com/12954262/125169570-18671c80-e1ab-11eb-88d9-be7676b30ab7.mp4
+
+#### Nesting view models
+
 **WIP**
